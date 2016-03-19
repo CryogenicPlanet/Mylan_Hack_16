@@ -37,9 +37,7 @@
 						<nav id="nav">
 							<ul>
 								<li class="active"><a href="index.html">Homepage</a></li>
-								<li><a href="left-sidebar.html">Forums</a></li>
-								<li><a href="Sign-up.html">Sign-Up</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
+								<li class="button special"><a href="Sign-up.html">Sign-Up</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -48,10 +46,10 @@
 					<div id="banner" class="container">
 						<section>
 							<p>Phorum: <strong></strong>A forum where you can report issues you faced after consumption of drugs, and report possible drug defects.</a>.</p>
-							<form>
-								<br> <input type="text" name="search"> <br>
+							<form action="php/index.php" method="post">
+								<br> <input type="text" name="search">
+								<br> <input type ="Submit" class="button medium">
 							</form>
-							<a href="#" class="button medium">Search</a>
 						</section>
 					</div>
 
